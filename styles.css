@@ -1,0 +1,35 @@
+body {
+    background-color: #41d536d2;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.cat{
+    background-color: #bcf5bfc6;
+    margin: 0.5em;
+    padding: 1em;
+    border-radius: 1em;
+    border: 1px solid;
+    flex: 1;
+}
+
+@media (min-width : 960px) {
+    .cats{
+    display: flex;
+}
+   
+}
+
+fieldset {
+    margin: 1em;
+    border: 0px;
+}
+
+button {
+    padding: 1em;
+    border: 3px solid;
+    border-radius: 0.5em;
+}
+
+input {
+    padding: 1em;
+}
